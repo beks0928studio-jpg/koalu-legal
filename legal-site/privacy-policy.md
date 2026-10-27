@@ -18,7 +18,7 @@ Koalu хранит твои лекарства и отметки приёма н
 
 2. Поиск по штрих-коду. Номер штрих-кода отправляется в открытые базы Open Food Facts и UPCitemdb, чтобы найти название. Фото упаковки никуда не отправляются.
 
-3. Почта (только если ты её указал, этот шаг можно пропустить). Почта сохраняется на нашем сервере, чтобы подтвердить её по ссылке из письма и вернуть профиль на другом телефоне. Если ты отметил галочку «Присылать ежемесячный отчёт», мы раз в месяц присылаем письмо с общей статистикой: серия и число дней. Названия лекарств в письма не попадают. Телефон мы не просим никогда.
+3. Почта (только если ты её указал, этот шаг можно пропустить). Почта сохраняется на нашем сервере, чтобы подтвердить её по ссылке из письма. Если ты отметил галочку «Присылать ежемесячный отчёт», мы раз в месяц присылаем письмо с общей статистикой: серия и число дней. Названия лекарств в письма не попадают. Телефон мы не просим никогда.
 
 4. Уведомления-напоминания создаются на самом телефоне.
 
@@ -62,7 +62,7 @@ Medication names, doses, schedules and courses, pill counts, intake marks and th
 
 2. Barcode lookup. The barcode number is sent to the open databases Open Food Facts and UPCitemdb to find a name. Photos of the pack are never sent.
 
-3. Email (only if you give one; this step can be skipped). The email is stored on our server to confirm it through a link in a message and to restore your profile on another phone. If you tick "Send a monthly report", we send one message a month with overall stats: streak and day count. Medication names never go into the messages. We never ask for a phone number.
+3. Email (only if you give one; this step can be skipped). The email is stored on our server to confirm it through a link in a message. If you tick "Send a monthly report", we send one message a month with overall stats: streak and day count. Medication names never go into the messages. We never ask for a phone number.
 
 4. Reminder notifications are created on the phone itself.
 
