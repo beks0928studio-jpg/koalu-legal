@@ -1,0 +1,83 @@
+<!-- Сгенерировано из src/legal.ts: правь там, а не здесь. -->
+
+# Политика конфиденциальности Koalu
+
+Версия от 27.10.2026. Контакт: beks0928.studio@gmail.com
+
+## Коротко
+
+Koalu хранит твои лекарства и отметки приёма на твоём телефоне. Мы не показываем рекламу, не продаём данные и не отслеживаем тебя. С телефона данные уходят только в случаях, описанных ниже.
+
+## Что хранится на телефоне
+
+Названия лекарств, дозировки, расписание и курсы, остаток таблеток, отметки приёма и их время, имя, время подъёма и отбоя, язык, запомненные штрих-коды. Эти данные не покидают телефон. Если удалить приложение или нажать «Удалить все данные» в настройках, они стираются.
+
+## Что уходит с телефона
+
+1. Друзья (только если ты создал профиль и дал согласие). На наш сервер отправляются: ник, длина серии, число дней, отметка «сегодня всё выпито» и твой код друга. Названия лекарств, дозы, время приёма и остаток не отправляются никогда. Вход анонимный: без почты, телефона и пароля.
+
+2. Поиск по штрих-коду. Номер штрих-кода отправляется в открытые базы Open Food Facts и UPCitemdb, чтобы найти название. Фото упаковки никуда не отправляются.
+
+3. Уведомления-напоминания создаются на самом телефоне.
+
+## Камера
+
+Камера используется только для сканирования штрих-кода. Изображение обрабатывается на телефоне и не сохраняется.
+
+## Твои права
+
+Ты можешь в любой момент: выгрузить свои данные (Настройки, «Экспортировать данные»); удалить профиль друзей (вкладка «Друзья»); удалить все данные на телефоне и на сервере (Настройки, «Удалить все данные»). После удаления профиля данные на сервере стираются.
+
+## Кто обрабатывает данные
+
+Данные профиля друзей хранит сервис Supabase. Поиск по штрих-коду выполняют Open Food Facts и UPCitemdb. Мы не передаём данные другим лицам и не используем их для рекламы.
+
+## Дети
+
+Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные. Детям до 18 лет лекарства должен вносить родитель или опекун.
+
+## Изменения
+
+Если политика изменится, новая версия появится в приложении с новой датой.
+
+---
+
+# Privacy Policy for Koalu
+
+Version of 27.10.2026. Contact: beks0928.studio@gmail.com
+
+## In short
+
+Koalu keeps your medications and intake marks on your phone. No ads, no selling data, no tracking. Data leaves the phone only in the cases below.
+
+## Kept on the phone
+
+Medication names, doses, schedules and courses, pill counts, intake marks and their times, your name, wake and bed times, language, remembered barcodes. None of it leaves the phone. Deleting the app, or tapping "Delete all data" in Settings, erases it.
+
+## What leaves the phone
+
+1. Friends (only if you create a profile and consent). Sent to our server: nickname, streak length, day count, a "done today" flag and your friend code. Medication names, doses, times and pill counts are never sent. Sign-in is anonymous: no email, phone number or password.
+
+2. Barcode lookup. The barcode number is sent to the open databases Open Food Facts and UPCitemdb to find a name. Photos of the pack are never sent.
+
+3. Reminder notifications are created on the phone itself.
+
+## Camera
+
+The camera is used only to scan barcodes. The image is processed on the phone and not saved.
+
+## Your rights
+
+At any time you can: export your data (Settings, "Export data"); delete your friends profile (Friends tab); delete all data on the phone and on the server (Settings, "Delete all data"). After the profile is deleted, the server data is erased.
+
+## Who processes data
+
+Friends profile data is stored by Supabase. Barcode lookups are done by Open Food Facts and UPCitemdb. We do not pass data to anyone else or use it for advertising.
+
+## Children
+
+The app is not intended for children under 13 and we knowingly collect no data from them. For anyone under 18, a parent or guardian should enter the medications.
+
+## Changes
+
+If this policy changes, the new version will appear in the app with a new date.
