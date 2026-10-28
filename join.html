@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MedKoalu: приглашение в семью</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 48px 20px; text-align: center; background: #f6f3ee; color: #1d1b16; }
+  main { max-width: 420px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p { font-size: 16px; line-height: 1.5; color: #4a463d; }
+  .code { font-size: 34px; letter-spacing: 6px; font-weight: 700; background: #fff; border-radius: 16px; padding: 18px; margin: 20px 0; user-select: all; }
+  a.btn { display: inline-block; background: #2f7d5b; color: #fff; text-decoration: none; font-weight: 600; padding: 14px 28px; border-radius: 999px; font-size: 17px; }
+  small { display: block; margin-top: 24px; color: #7a7566; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Приглашение в семью MedKoalu</h1>
+  <p>Тебя зовут в общую семью. Если приложение установлено, нажми кнопку.</p>
+  <div class="code" id="code">…</div>
+  <a class="btn" id="open" href="#">Открыть в MedKoalu</a>
+  <small>Кнопка не сработала? В приложении: Настройки → Семья → «У меня есть код приглашения» и введи код выше.<br><br>
+  Invitation to a MedKoalu family. If the button does not work, enter the code in Settings → Family.</small>
+</main>
+<script>
+  var code = (new URLSearchParams(location.search).get('code') || '').replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+  document.getElementById('code').textContent = code || '—';
+  var link = 'medkoalu://family?code=' + code;
+  document.getElementById('open').href = link;
+  if (code) setTimeout(function () { location.href = link; }, 400);
+</script>
+</body>
+</html>
