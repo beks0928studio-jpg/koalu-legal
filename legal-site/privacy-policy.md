@@ -2,15 +2,15 @@
 
 # Политика конфиденциальности MedKoalu
 
-Версия от 27.10.2026. Контакт: beks0928.studio@gmail.com
+Версия от 28.10.2026. Контакт: beks0928.studio@gmail.com
 
 ## Коротко
 
-MedKoalu хранит твои лекарства и отметки приёма на твоём телефоне. Мы не показываем рекламу, не продаём данные и не отслеживаем тебя. С телефона данные уходят только в случаях, описанных ниже.
+MedKoalu хранит твои лекарства и отметки приёма на твоём телефоне (и на сервере только если ты вступил в общую семью). Мы не показываем рекламу, не продаём данные и не отслеживаем тебя. С телефона данные уходят только в случаях, описанных ниже.
 
 ## Что хранится на телефоне
 
-Названия лекарств, дозировки, расписание и курсы, остаток таблеток, отметки приёма и их время, имя, время подъёма и отбоя, язык, запомненные штрих-коды. Эти данные не покидают телефон. Если удалить приложение или нажать «Удалить все данные» в настройках, они стираются.
+Названия лекарств, дозировки, расписание и курсы, остаток таблеток, отметки приёма и их время, имя, время подъёма и отбоя, язык, запомненные штрих-коды. Эти данные не покидают телефон, пока ты не вступил в общую семью (см. ниже). Если удалить приложение или нажать «Удалить все данные» в настройках, они стираются.
 
 ## Что уходит с телефона
 
@@ -20,7 +20,9 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 3. Почта (только если ты её указал, этот шаг можно пропустить). Почта сохраняется на нашем сервере, чтобы подтвердить её по ссылке из письма. Если ты отметил галочку «Присылать ежемесячный отчёт», мы раз в месяц присылаем письмо с общей статистикой: серия и число дней. Названия лекарств в письма не попадают. Телефон мы не просим никогда.
 
-4. Уведомления-напоминания создаются на самом телефоне.
+4. Общая семья (только если ты создал семью или вступил по приглашению и дал отдельное согласие). Лекарства (названия, дозировки, расписание, курсы, остаток) и отметки приёма хранятся на нашем сервере и видны участникам твоей семьи. Участник может менять твои лекарства, только если ты это разрешил в настройках семьи. Если ты выходишь из семьи или тебя убирают, твои лекарства стираются с сервера. У тех, кто не в семье, лекарства остаются только на телефоне.
+
+5. Уведомления-напоминания создаются на самом телефоне.
 
 ## Камера
 
@@ -46,15 +48,15 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 # Privacy Policy for MedKoalu
 
-Version of 27.10.2026. Contact: beks0928.studio@gmail.com
+Version of 28.10.2026. Contact: beks0928.studio@gmail.com
 
 ## In short
 
-MedKoalu keeps your medications and intake marks on your phone. No ads, no selling data, no tracking. Data leaves the phone only in the cases below.
+MedKoalu keeps your medications and intake marks on your phone (and on the server only if you join a shared family). No ads, no selling data, no tracking. Data leaves the phone only in the cases below.
 
 ## Kept on the phone
 
-Medication names, doses, schedules and courses, pill counts, intake marks and their times, your name, wake and bed times, language, remembered barcodes. None of it leaves the phone. Deleting the app, or tapping "Delete all data" in Settings, erases it.
+Medication names, doses, schedules and courses, pill counts, intake marks and their times, your name, wake and bed times, language, remembered barcodes. None of it leaves the phone unless you join a shared family (see below). Deleting the app, or tapping "Delete all data" in Settings, erases it.
 
 ## What leaves the phone
 
@@ -64,7 +66,9 @@ Medication names, doses, schedules and courses, pill counts, intake marks and th
 
 3. Email (only if you give one; this step can be skipped). The email is stored on our server to confirm it through a link in a message. If you tick "Send a monthly report", we send one message a month with overall stats: streak and day count. Medication names never go into the messages. We never ask for a phone number.
 
-4. Reminder notifications are created on the phone itself.
+4. Shared family (only if you create a family or join by invitation and give a separate consent). Medications (names, doses, schedules, courses, pill counts) and intake marks are stored on our server and visible to the members of your family. A member can change your medications only if you allow it in the family settings. If you leave the family or are removed, your medications are erased from the server. For people who are not in a family, medications stay on the phone only.
+
+5. Reminder notifications are created on the phone itself.
 
 ## Camera
 
