@@ -1,12 +1,12 @@
 <!-- Сгенерировано из src/legal.ts: правь там, а не здесь. -->
 
-# Политика конфиденциальности Koalu
+# Политика конфиденциальности MedKoalu
 
 Версия от 27.10.2026. Контакт: beks0928.studio@gmail.com
 
 ## Коротко
 
-Koalu хранит твои лекарства и отметки приёма на твоём телефоне. Мы не показываем рекламу, не продаём данные и не отслеживаем тебя. С телефона данные уходят только в случаях, описанных ниже.
+MedKoalu хранит твои лекарства и отметки приёма на твоём телефоне. Мы не показываем рекламу, не продаём данные и не отслеживаем тебя. С телефона данные уходят только в случаях, описанных ниже.
 
 ## Что хранится на телефоне
 
@@ -44,13 +44,13 @@ Koalu хранит твои лекарства и отметки приёма н
 
 ---
 
-# Privacy Policy for Koalu
+# Privacy Policy for MedKoalu
 
 Version of 27.10.2026. Contact: beks0928.studio@gmail.com
 
 ## In short
 
-Koalu keeps your medications and intake marks on your phone. No ads, no selling data, no tracking. Data leaves the phone only in the cases below.
+MedKoalu keeps your medications and intake marks on your phone. No ads, no selling data, no tracking. Data leaves the phone only in the cases below.
 
 ## Kept on the phone
 

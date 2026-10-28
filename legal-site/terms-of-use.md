@@ -1,12 +1,12 @@
 <!-- Сгенерировано из src/legal.ts: правь там, а не здесь. -->
 
-# Условия использования Koalu
+# Условия использования MedKoalu
 
 Версия от 27.10.2026. Контакт: beks0928.studio@gmail.com
 
 ## Не медицинский совет
 
-Koalu только напоминает о приёме и считает остаток. Приложение не ставит диагнозы, не назначает лечение, не подбирает и не проверяет дозы и не заменяет врача или фармацевта. Режим приёма, дозы и совместимость лекарств определяет врач. Перед любым решением о лечении посоветуйся со специалистом. В экстренной ситуации звони в скорую помощь.
+MedKoalu только напоминает о приёме и считает остаток. Приложение не ставит диагнозы, не назначает лечение, не подбирает и не проверяет дозы и не заменяет врача или фармацевта. Режим приёма, дозы и совместимость лекарств определяет врач. Перед любым решением о лечении посоветуйся со специалистом. В экстренной ситуации звони в скорую помощь.
 
 ## Напоминания могут не сработать
 
@@ -34,13 +34,13 @@ Koalu только напоминает о приёме и считает ост
 
 ---
 
-# Terms of Use for Koalu
+# Terms of Use for MedKoalu
 
 Version of 27.10.2026. Contact: beks0928.studio@gmail.com
 
 ## Not medical advice
 
-Koalu only reminds you to take medication and counts pills. It does not diagnose, prescribe, choose or check doses, and does not replace a doctor or pharmacist. Your schedule, doses and drug interactions are for your doctor to decide. Talk to a professional before any treatment decision. In an emergency, call your local emergency number.
+MedKoalu only reminds you to take medication and counts pills. It does not diagnose, prescribe, choose or check doses, and does not replace a doctor or pharmacist. Your schedule, doses and drug interactions are for your doctor to decide. Talk to a professional before any treatment decision. In an emergency, call your local emergency number.
 
 ## Reminders can fail
 
