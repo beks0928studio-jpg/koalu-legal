@@ -38,7 +38,7 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 ## Дети
 
-Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные. Роль «ребёнок» в общей семье для тех, кому исполнилось 13 лет. Для младших используй профили близких без телефона: они остаются только на телефоне родителя. Детям до 18 лет лекарства должен вносить родитель или опекун.
+Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные. Роль «ребёнок» в общей семье для тех, кому исполнилось 13 лет. Для младших используй профили близких: они остаются только на телефоне родителя. Детям до 18 лет лекарства должен вносить родитель или опекун.
 
 ## Изменения
 
@@ -84,7 +84,7 @@ Friends profile data, your email, report totals and shared family data are store
 
 ## Children
 
-The app is not intended for children under 13 and we knowingly collect no data from them. The "child" role in a shared family is for people aged 13 or older. For younger children use relatives profiles without a phone: they stay on the parent's phone only. For anyone under 18, a parent or guardian should enter the medications.
+The app is not intended for children under 13 and we knowingly collect no data from them. The "child" role in a shared family is for people aged 13 or older. For younger children use relatives profiles: they stay on the parent's phone only. For anyone under 18, a parent or guardian should enter the medications.
 
 ## Changes
 
