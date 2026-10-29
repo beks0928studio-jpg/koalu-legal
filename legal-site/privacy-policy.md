@@ -10,7 +10,7 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 ## Что хранится на телефоне
 
-Названия лекарств, дозировки, расписание и курсы, остаток таблеток, отметки приёма и их время, имя, время подъёма и отбоя, язык, запомненные штрих-коды. Эти данные не покидают телефон, пока ты не вступил в общую семью (см. ниже). Если удалить приложение или нажать «Удалить все данные» в настройках, они стираются.
+Названия лекарств, дозировки, расписание и курсы, остаток таблеток, отметки приёма и их время, имя, время подъёма и отбоя, язык, запомненные штрих-коды. Эти данные не покидают телефон, пока ты не вступил в общую семью (см. ниже). Если удалить приложение или нажать «Удалить аккаунт и все данные» в настройках, они стираются.
 
 ## Что уходит с телефона
 
@@ -30,7 +30,7 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 ## Твои права
 
-Ты можешь в любой момент: выгрузить свои данные (Настройки, «Экспортировать данные»); удалить профиль друзей (вкладка «Друзья»); удалить все данные на телефоне и на сервере, включая почту (Настройки, «Удалить все данные»); отказаться от ежемесячного отчёта, написав на контактный адрес. После удаления профиля данные на сервере стираются.
+Ты можешь в любой момент: выгрузить свои данные (Настройки, «Экспортировать данные»); удалить профиль друзей (вкладка «Друзья»); удалить все данные на телефоне и на сервере, включая почту (Настройки, «Удалить аккаунт и все данные»); отказаться от ежемесячного отчёта, написав на контактный адрес. После удаления профиля данные на сервере стираются.
 
 ## Кто обрабатывает данные
 
@@ -56,7 +56,7 @@ MedKoalu keeps your medications and intake marks on your phone (and on the serve
 
 ## Kept on the phone
 
-Medication names, doses, schedules and courses, pill counts, intake marks and their times, your name, wake and bed times, language, remembered barcodes. None of it leaves the phone unless you join a shared family (see below). Deleting the app, or tapping "Delete all data" in Settings, erases it.
+Medication names, doses, schedules and courses, pill counts, intake marks and their times, your name, wake and bed times, language, remembered barcodes. None of it leaves the phone unless you join a shared family (see below). Deleting the app, or tapping "Delete account and all data" in Settings, erases it.
 
 ## What leaves the phone
 
@@ -76,7 +76,7 @@ The camera is used to scan barcodes and to read the name on a pack. The image is
 
 ## Your rights
 
-At any time you can: export your data (Settings, "Export data"); delete your friends profile (Friends tab); delete all data on the phone and on the server, including your email (Settings, "Delete all data"); stop the monthly report by writing to the contact address. After the profile is deleted, the server data is erased.
+At any time you can: export your data (Settings, "Export data"); delete your friends profile (Friends tab); delete all data on the phone and on the server, including your email (Settings, "Delete account and all data"); stop the monthly report by writing to the contact address. After the profile is deleted, the server data is erased.
 
 ## Who processes data
 
