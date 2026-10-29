@@ -2,7 +2,7 @@
 
 # Условия использования MedKoalu
 
-Версия от 28.10.2026. Контакт: beks0928.studio@gmail.com
+Версия от 29.10.2026. Контакт: beks0928.studio@gmail.com
 
 ## Не медицинский совет
 
@@ -36,7 +36,7 @@ MedKoalu только напоминает о приёме и считает о�
 
 # Terms of Use for MedKoalu
 
-Version of 28.10.2026. Contact: beks0928.studio@gmail.com
+Version of 29.10.2026. Contact: beks0928.studio@gmail.com
 
 ## Not medical advice
 

@@ -2,7 +2,7 @@
 
 # Политика конфиденциальности MedKoalu
 
-Версия от 28.10.2026. Контакт: beks0928.studio@gmail.com
+Версия от 29.10.2026. Контакт: beks0928.studio@gmail.com
 
 ## Коротко
 
@@ -16,11 +16,11 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 1. Друзья (только если ты создал профиль и дал согласие). На наш сервер отправляются: ник, длина серии, число дней, отметка «сегодня всё выпито» и твой код друга. Названия лекарств, дозы, время приёма и остаток не отправляются никогда. Вход анонимный: без телефона и пароля. Почта нужна, только если ты её указал.
 
-2. Поиск по штрих-коду. Номер штрих-кода отправляется в открытые базы Open Food Facts и UPCitemdb, чтобы найти название. Фото упаковки никуда не отправляются.
+2. Поиск по штрих-коду. Номер штрих-кода вместе с твоим IP-адресом отправляется в открытые базы Open Food Facts и UPCitemdb, чтобы найти название: по номеру эти сервисы могут узнать, какой товар ты сканируешь. Фото упаковки никуда не отправляются.
 
-3. Почта (только если ты её указал, этот шаг можно пропустить). Почта сохраняется на нашем сервере, чтобы подтвердить её по ссылке из письма. Если ты отметил галочку «Присылать ежемесячный отчёт», мы раз в месяц присылаем письмо с общей статистикой: серия и число дней. Названия лекарств в письма не попадают. Телефон мы не просим никогда.
+3. Почта (только если ты её указал, этот шаг можно пропустить). Почта сохраняется на нашем сервере, чтобы подтвердить её по ссылке из письма. Если ты отметил галочку «Присылать ежемесячный отчёт», мы раз в месяц присылаем письмо с итогами: сколько доз по расписанию и сколько отмечено, число идеальных дней и серия. Для этого эти числа хранятся на нашем сервере. Названия лекарств в письма и на сервер для отчёта не попадают. Письма отправляет Google (почтовая служба Gmail). Отписаться можно по ссылке в письме или выйдя из аккаунта. Телефон мы не просим никогда.
 
-4. Общая семья (только если ты создал семью или вступил по приглашению и дал отдельное согласие). Лекарства (названия, дозировки, расписание, курсы, остаток) и отметки приёма хранятся на нашем сервере и видны участникам твоей семьи. Участник может менять твои лекарства, только если ты это разрешил в настройках семьи. Если ты выходишь из семьи или тебя убирают, твои лекарства стираются с сервера. У тех, кто не в семье, лекарства остаются только на телефоне.
+4. Общая семья (только если ты создал семью или вступил по приглашению и дал отдельное согласие). Лекарства (названия, дозировки, расписание, курсы, остаток) и отметки приёма хранятся на нашем сервере и видны участникам твоей семьи. По умолчанию участники могут менять и отмечать твои лекарства: это можно запретить для каждого человека или для всех сразу в настройках семьи. Если ты выходишь из семьи или тебя убирают, твои лекарства стираются с сервера. У тех, кто не в семье, лекарства остаются только на телефоне.
 
 5. Уведомления-напоминания создаются на самом телефоне.
 
@@ -34,11 +34,11 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 ## Кто обрабатывает данные
 
-Данные профиля друзей и почту хранит сервис Supabase, письма отправляет почтовый сервис-провайдер. Поиск по штрих-коду выполняют Open Food Facts и UPCitemdb. Мы не передаём данные другим лицам и не используем их для рекламы.
+Данные профиля друзей, почту, итоги для отчёта и данные общей семьи хранит сервис Supabase. Письма отправляет Google (Gmail). Покупки обрабатывает RevenueCat (получает идентификатор аккаунта и сведения о покупке) вместе с App Store и Google Play. Поиск по штрих-коду выполняют Open Food Facts и UPCitemdb. Мы не передаём данные другим лицам и не используем их для рекламы.
 
 ## Дети
 
-Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные. Детям до 18 лет лекарства должен вносить родитель или опекун.
+Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные. Роль «ребёнок» в общей семье для тех, кому исполнилось 13 лет. Для младших используй профили близких без телефона: они остаются только на телефоне родителя. Детям до 18 лет лекарства должен вносить родитель или опекун.
 
 ## Изменения
 
@@ -48,7 +48,7 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 # Privacy Policy for MedKoalu
 
-Version of 28.10.2026. Contact: beks0928.studio@gmail.com
+Version of 29.10.2026. Contact: beks0928.studio@gmail.com
 
 ## In short
 
@@ -62,11 +62,11 @@ Medication names, doses, schedules and courses, pill counts, intake marks and th
 
 1. Friends (only if you create a profile and consent). Sent to our server: nickname, streak length, day count, a "done today" flag and your friend code. Medication names, doses, times and pill counts are never sent. Sign-in is anonymous: no phone number or password. An email is needed only if you choose to give one.
 
-2. Barcode lookup. The barcode number is sent to the open databases Open Food Facts and UPCitemdb to find a name. Photos of the pack are never sent.
+2. Barcode lookup. The barcode number is sent with your IP address to the open databases Open Food Facts and UPCitemdb to find a name: from the number these services can tell which product you scan. Photos of the pack are never sent.
 
-3. Email (only if you give one; this step can be skipped). The email is stored on our server to confirm it through a link in a message. If you tick "Send a monthly report", we send one message a month with overall stats: streak and day count. Medication names never go into the messages. We never ask for a phone number.
+3. Email (only if you give one; this step can be skipped). The email is stored on our server to confirm it through a link in a message. If you tick "Send a monthly report", we send one message a month with a summary: doses scheduled and marked, perfect days and streak. These numbers are stored on our server for that. Medication names never go into the messages or onto the server for the report. Messages are sent by Google (Gmail). You can unsubscribe through the link in the message or by signing out. We never ask for a phone number.
 
-4. Shared family (only if you create a family or join by invitation and give a separate consent). Medications (names, doses, schedules, courses, pill counts) and intake marks are stored on our server and visible to the members of your family. A member can change your medications only if you allow it in the family settings. If you leave the family or are removed, your medications are erased from the server. For people who are not in a family, medications stay on the phone only.
+4. Shared family (only if you create a family or join by invitation and give a separate consent). Medications (names, doses, schedules, courses, pill counts) and intake marks are stored on our server and visible to the members of your family. By default members can change and mark your medications: you can block this for each person or for everyone at once in the family settings. If you leave the family or are removed, your medications are erased from the server. For people who are not in a family, medications stay on the phone only.
 
 5. Reminder notifications are created on the phone itself.
 
@@ -80,11 +80,11 @@ At any time you can: export your data (Settings, "Export data"); delete your fri
 
 ## Who processes data
 
-Friends profile data and your email are stored by Supabase; messages are sent by a mail service provider. Barcode lookups are done by Open Food Facts and UPCitemdb. We do not pass data to anyone else or use it for advertising.
+Friends profile data, your email, report totals and shared family data are stored by Supabase. Messages are sent by Google (Gmail). Purchases are processed by RevenueCat (it receives the account identifier and purchase details) together with the App Store and Google Play. Barcode lookups are done by Open Food Facts and UPCitemdb. We do not pass data to anyone else or use it for advertising.
 
 ## Children
 
-The app is not intended for children under 13 and we knowingly collect no data from them. For anyone under 18, a parent or guardian should enter the medications.
+The app is not intended for children under 13 and we knowingly collect no data from them. The "child" role in a shared family is for people aged 13 or older. For younger children use relatives profiles without a phone: they stay on the parent's phone only. For anyone under 18, a parent or guardian should enter the medications.
 
 ## Changes
 
