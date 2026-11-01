@@ -30,7 +30,7 @@ MedKoalu хранит твои лекарства и отметки приёма
 
 ## Камера
 
-Камера используется для сканирования штрих-кода и чтения названия на упаковке. Сначала изображение читается на самом телефоне и после чтения удаляется. Если название не нашлось на телефоне, после твоего согласия (его спрашивают один раз) фото отправляется на наш сервер и в Google (модель Gemini), чтобы прочитать название, дозу и количество. Мы и Google не сохраняем фото. Название лекарства попадает в общий список, который помогает распознавать упаковки без интернета; в этом списке нет ничего о тебе. Не снимай аптечную наклейку с твоим именем. То же с фото врачебной выписки (Pro): после твоего согласия она уходит на наш сервер и в Google, чтобы прочитать назначения, срок курса, повторный приём и анализы; её никто не сохраняет, а в общий список попадают только названия лекарств.
+Камера используется для сканирования штрих-кода и чтения названия на упаковке. Сначала изображение читается на самом телефоне и после чтения удаляется. Если название не нашлось на телефоне, после твоего согласия (его спрашивают один раз) фото отправляется на наш сервер и в Google (модель Gemini), чтобы прочитать название, дозу и количество. Мы и Google не сохраняем фото. Название лекарства попадает в общий список, который помогает распознавать упаковки без интернета; в этом списке нет ничего о тебе. Не снимай аптечную наклейку с твоим именем. То же с фото врачебной выписки (Pro): после твоего согласия она уходит на наш сервер и в Google, чтобы прочитать назначения, срок курса, повторный приём и анализы; её никто не сохраняет, а в общий список попадают только названия лекарств. Анализы и документы, которые ты добавляешь сам (Pro), лежат только на телефоне и никуда не отправляются.
 
 ## Твои права
 
@@ -80,7 +80,7 @@ Medication names, doses, schedules and courses, pill counts, intake marks and th
 
 ## Camera
 
-The camera is used to scan barcodes and to read the name on a pack. The image is first read on the phone itself and deleted after reading. If no name is found on the phone, after your consent (asked once) the photo is sent to our server and to Google (the Gemini model) to read the name, strength and count. Neither we nor Google keep the photo. The medication name joins a shared list that helps recognize packs without internet; the list contains nothing about you. Keep a pharmacy sticker with your name out of the shot. The same goes for a photo of a doctor's prescription (Pro): after your consent it is sent to our server and to Google to read the medications, course length, follow-up visit and tests; nobody keeps it, and only medication names join the shared list.
+The camera is used to scan barcodes and to read the name on a pack. The image is first read on the phone itself and deleted after reading. If no name is found on the phone, after your consent (asked once) the photo is sent to our server and to Google (the Gemini model) to read the name, strength and count. Neither we nor Google keep the photo. The medication name joins a shared list that helps recognize packs without internet; the list contains nothing about you. Keep a pharmacy sticker with your name out of the shot. The same goes for a photo of a doctor's prescription (Pro): after your consent it is sent to our server and to Google to read the medications, course length, follow-up visit and tests; nobody keeps it, and only medication names join the shared list. Tests and documents you add yourself (Pro) stay only on the phone and are never sent anywhere.
 
 ## Your rights
 
