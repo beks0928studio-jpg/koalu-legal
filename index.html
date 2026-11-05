@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="MedKoalu: напоминания о лекарствах и добавках с коалой. Для iPhone.">
@@ -107,19 +107,21 @@
     .store { align-self: stretch; justify-content: center; }
   }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  html[lang="en"] [data-l="ru"], html[lang="ru"] [data-l="en"] { display: none !important; }
 </style>
+<script>(function(){var l=String((navigator.languages&&navigator.languages[0])||navigator.language||'ru').toLowerCase();var ru=/^(ru|kk|uk|be)(-|$)/.test(l);var h=document.documentElement;h.lang=ru?'ru':'en';document.title=ru?'MedKoalu: напоминания о лекарствах':'MedKoalu: medication reminders';var m=document.querySelector('meta[name=description]');if(m)m.setAttribute('content',ru?'MedKoalu: напоминания о лекарствах и добавках с коалой. Для iPhone.':'MedKoalu: reminders for medications and supplements with a koala. For iPhone.');})();</script>
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#top">MedKoalu</a>
-    <nav class="links" aria-label="Разделы">
-      <a href="#features">Возможности</a>
-      <a href="#how">Как работает</a>
-      <a href="https://privacy.medkoalu.app">Политика конфиденциальности</a>
+    <nav class="links">
+      <a href="#features" data-l="ru">Возможности</a><a href="#features" data-l="en">Features</a>
+      <a href="#how" data-l="ru">Как работает</a><a href="#how" data-l="en">How it works</a>
+      <a href="https://privacy.medkoalu.app" data-l="ru">Политика конфиденциальности</a><a href="https://privacy.medkoalu.app" data-l="en">Privacy Policy</a>
       <a href="https://terms.medkoalu.app">Terms of Use</a>
-      <a href="support.html">Поддержка</a>
+      <a href="support.html" data-l="ru">Поддержка</a><a href="support.html" data-l="en">Support</a>
     </nav>
   </div>
 </header>
@@ -128,25 +130,28 @@
 
 <section class="hero">
   <div class="wrap">
-    <div class="copy">
+    <div class="copy" data-l="ru">
       <h1>Таблетки вовремя, а рядом коала</h1>
       <p class="lead">MedKoalu напомнит принять лекарства и добавки. Отметка приёма занимает одно касание, а серия дней подряд показывает, что режим держится.</p>
-      <a class="store" href="https://apps.apple.com/app/medkoalu/idXXXXXXXXX" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.73-1.35-.14-2.65.8-3.33.8-.7 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.6 1.1 8.76.73 1.06 1.6 2.25 2.74 2.2 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.7.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.43 1.21-2.49-.03-.01-2.32-.89-2.35-3.56zM14.2 5.97c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.69-.92 2.69.98.08 1.98-.5 2.58-1.23z"/></svg>
-        <span>Скачать в<small>App Store</small></span>
-      </a>
+      <a class="store" href="https://apps.apple.com/app/medkoalu/idXXXXXXXXX" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.73-1.35-.14-2.65.8-3.33.8-.7 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.6 1.1 8.76.73 1.06 1.6 2.25 2.74 2.2 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.7.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.43 1.21-2.49-.03-.01-2.32-.89-2.35-3.56zM14.2 5.97c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.69-.92 2.69.98.08 1.98-.5 2.58-1.23z"/></svg><span>Скачать в<small>App Store</small></span></a>
       <p class="note">Для iPhone с iOS 16.4 и новее. Есть бесплатный тариф, расширенные функции по подписке.</p>
     </div>
+    <div class="copy" data-l="en">
+      <h1>Pills on time, with a koala by your side</h1>
+      <p class="lead">MedKoalu reminds you to take your medications and supplements. Marking a dose takes one tap, and a daily streak shows your routine is holding.</p>
+      <a class="store" href="https://apps.apple.com/app/medkoalu/idXXXXXXXXX" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.54c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.61-1.7-3.18-1.73-1.35-.14-2.65.8-3.33.8-.7 0-1.75-.78-2.88-.76-1.48.02-2.85.86-3.61 2.19-1.54 2.67-.39 6.6 1.1 8.76.73 1.06 1.6 2.25 2.74 2.2 1.1-.04 1.52-.71 2.85-.71 1.33 0 1.7.71 2.87.69 1.19-.02 1.94-1.08 2.66-2.15.84-1.23 1.19-2.43 1.21-2.49-.03-.01-2.32-.89-2.35-3.56zM14.2 5.97c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.69-.92 2.69.98.08 1.98-.5 2.58-1.23z"/></svg><span>Download on the<small>App Store</small></span></a>
+      <p class="note">For iPhone with iOS 16.4 or later. There is a free plan; extra features are by subscription.</p>
+    </div>
     <div class="art">
-      <img src="koala-idle.png" width="640" height="942" alt="Коала-питомец из приложения MedKoalu">
+      <img src="koala-idle.png" width="640" height="942" alt="MedKoalu koala">
     </div>
   </div>
 </section>
 
 <section id="features">
   <div class="wrap">
-    <h2>Что умеет</h2>
-    <ul class="cards">
+    <h2 data-l="ru">Что умеет</h2><h2 data-l="en">What it does</h2>
+    <ul class="cards" data-l="ru">
       <li><strong>Напоминание с кнопкой «Выпил»</strong><span>Отмечаешь приём прямо в уведомлении, не открывая приложение.</span></li>
       <li><strong>Курсы лечения</strong><span>На неделю, месяц или год: каждый день, через день или раз в N дней. Несколько приёмов в день тоже.</span></li>
       <li><strong>Остаток таблеток</strong><span>Приложение считает, сколько осталось, и напомнит докупить заранее.</span></li>
@@ -156,26 +161,46 @@
       <li><strong>Семья и друзья</strong><span>Общий список лекарств по приглашению, у каждого свой телефон. Друзьям видно только серию, названия лекарств не передаются.</span></li>
       <li><strong>Русский и английский</strong><span>Язык интерфейса переключается в настройках.</span></li>
     </ul>
+    <ul class="cards" data-l="en">
+      <li><strong>Reminder with a Taken button</strong><span>Mark a dose right in the notification without opening the app.</span></li>
+      <li><strong>Treatment courses</strong><span>For a week, a month or a year: every day, every other day or every N days. Several doses a day too.</span></li>
+      <li><strong>Pill count</strong><span>The app counts what is left and reminds you to buy more in advance.</span></li>
+      <li><strong>Name from a barcode</strong><span>Scan the pack and the name fills in on its own. Names can be hidden on the lock screen.</span></li>
+      <li><strong>Streak and stats</strong><span>See which days were missed and which week was best. The koala cheers every mark.</span></li>
+      <li><strong>Report for your doctor</strong><span>A 30-day PDF with doses taken and missed, to show at your appointment.</span></li>
+      <li><strong>Family and friends</strong><span>A shared medication list by invitation, each person on their own phone. Friends only see your streak; medication names are never shared.</span></li>
+      <li><strong>Russian and English</strong><span>Switch the interface language in Settings.</span></li>
+    </ul>
   </div>
 </section>
 
 <section id="how">
   <div class="wrap">
-    <h2>Как начать</h2>
-    <ol class="steps">
+    <h2 data-l="ru">Как начать</h2><h2 data-l="en">How to start</h2>
+    <ol class="steps" data-l="ru">
       <li><span class="n">ШАГ 1</span><h3>Добавь лекарство</h3><p>Название, дозу и количество в упаковке. Или сканируй штрих-код.</p></li>
       <li><span class="n">ШАГ 2</span><h3>Выбери время</h3><p>Каждый день, курс на нужный срок или свой график. Время можно подстроить под привычки.</p></li>
       <li><span class="n">ШАГ 3</span><h3>Отмечай приём</h3><p>Нажми «Выпил» в уведомлении или на главном экране. Серия растёт.</p></li>
+    </ol>
+    <ol class="steps" data-l="en">
+      <li><span class="n">STEP 1</span><h3>Add a medication</h3><p>Name, dose and pack size. Or scan the barcode.</p></li>
+      <li><span class="n">STEP 2</span><h3>Pick a time</h3><p>Every day, a course for the period you need, or your own schedule. Times can adapt to your habits.</p></li>
+      <li><span class="n">STEP 3</span><h3>Mark the dose</h3><p>Tap Taken in the notification or on the main screen. Your streak grows.</p></li>
     </ol>
   </div>
 </section>
 
 <section id="privacy-summary">
   <div class="wrap">
-    <div class="privacy-band">
+    <div class="privacy-band" data-l="ru">
       <h2>Лекарства остаются на телефоне</h2>
       <p>Названия, дозы, расписание и отметки хранятся на iPhone. На сервер попадают только данные, которые ты включил сам: профиль друзей, семья, почта для отчёта и фото упаковки, если ты разрешил его распознать. Реклама не показывается, данные не продаются и не используются для отслеживания.</p>
       <p><a href="https://privacy.medkoalu.app">Политика конфиденциальности</a> · <a href="https://terms.medkoalu.app">Terms of Use</a></p>
+    </div>
+    <div class="privacy-band" data-l="en">
+      <h2>Your medications stay on your phone</h2>
+      <p>Names, doses, schedules and marks are stored on your iPhone. Only data you turn on yourself goes to the server: friends profile, family, email for the report and a pack photo if you allow it to be recognized. No ads, no selling data, no tracking.</p>
+      <p><a href="https://privacy.medkoalu.app">Privacy Policy</a> · <a href="https://terms.medkoalu.app">Terms of Use</a></p>
     </div>
   </div>
 </section>
@@ -184,8 +209,9 @@
 
 <footer>
   <div class="wrap">
-    <p>MedKoalu только напоминает и не заменяет врача. MedKoalu only reminds you and does not replace a doctor.</p>
-    <p><a href="support.html">Поддержка</a> · <a href="https://privacy.medkoalu.app">Политика конфиденциальности</a> · <a href="https://terms.medkoalu.app">Terms of Use</a> · <a href="mailto:beks0928.studio@gmail.com">beks0928.studio@gmail.com</a></p>
+    <p data-l="ru">MedKoalu только напоминает и не заменяет врача.</p>
+    <p data-l="en">MedKoalu only reminds you and does not replace a doctor.</p>
+    <p><a href="support.html" data-l="ru">Поддержка</a><a href="support.html" data-l="en">Support</a> · <a href="https://privacy.medkoalu.app" data-l="ru">Политика конфиденциальности</a><a href="https://privacy.medkoalu.app" data-l="en">Privacy Policy</a> · <a href="https://terms.medkoalu.app">Terms of Use</a> · <a href="mailto:beks0928.studio@gmail.com">beks0928.studio@gmail.com</a></p>
   </div>
 </footer>
 
