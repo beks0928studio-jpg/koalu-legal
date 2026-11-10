@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; connect-src https://challenges.cloudflare.com; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>MedKoalu</title>
+<style>
+  html, body { margin: 0; background: transparent; }
+  body { display: flex; justify-content: center; align-items: flex-start; min-height: 70px; font: 14px -apple-system, system-ui, sans-serif; }
+  #box { min-height: 65px; }
+</style>
+</head>
+<body>
+<!--
+  The "are you a person" check for the MedKoalu app (Cloudflare Turnstile). The app opens this page in a hidden
+  web view when the server asks for a check before creating an account or signing in, and gets back a one-time token.
+  The page keeps nothing and sends nothing anywhere except to the app that opened it.
+  ?k = the public site key (not a secret; a token made with a wrong key is refused by the server), ?l = language.
+-->
+<div id="box"></div>
+<script>
+  var q = new URLSearchParams(location.search);
+  var key = q.get('k') || '';
+  var lang = /^(ru|en)$/.test(q.get('l') || '') ? q.get('l') : 'auto';
+  function tell(type, value) {
+    var msg = JSON.stringify({ type: type, value: value == null ? '' : String(value).slice(0, 4000) });
+    if (window.ReactNativeWebView) window.ReactNativeWebView.postMessage(msg);
+  }
+  function start() {
+    if (!/^[0-9A-Za-z_-]{10,60}$/.test(key)) return tell('error', 'key');
+    turnstile.render('#box', {
+      sitekey: key,
+      language: lang,
+      appearance: 'interaction-only', // nothing is drawn unless Cloudflare wants the person to tap
+      callback: function (token) { tell('token', token); },
+      'error-callback': function (code) { tell('error', code); return true; },
+      'expired-callback': function () { tell('expired'); },
+      'timeout-callback': function () { tell('expired'); },
+      'unsupported-callback': function () { tell('error', 'unsupported'); },
+      'before-interactive-callback': function () { tell('interactive'); },
+      'after-interactive-callback': function () { tell('passive'); }
+    });
+  }
+  function failed() { tell('error', 'load'); }
+</script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=start" async defer onerror="failed()"></script>
+</body>
+</html>
